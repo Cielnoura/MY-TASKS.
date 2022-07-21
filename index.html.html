@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>تحويل النص لى صوت</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="c.css">
+
+    </head>
+    <body>
+        <div class="container">
+
+            <h1>تحويل الصوت إلى نص (اللغة العربيَة)</h1>
+        
+
+
+            <div class="app"> 
+                <h3>أضف ملاحظة صوتيَة جديدة</h3>
+                <div class="input-single">
+                    <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6"></textarea>
+                </div>         
+                <button id="start-record-btn" title="Start Recording">بدء التسجيل</button>
+                <button id="pause-record-btn" title="Pause Recording">التوقف مؤقتًا</button>
+                <button id="save-note-btn" title="Save Note">احفظ ما سجَلته</button>   
+                
+                <h3>:ملاحظاتي الصوتية السابقة</h3>
+                <ul id="notes">
+                  
+                </ul>
+
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        
+
+    </body>
+</html>
